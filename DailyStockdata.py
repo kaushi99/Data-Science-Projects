@@ -13,7 +13,7 @@ def job(frequency, period):
  
     for ticker in tickers:
         try:
-                #Make Sure Notation is Correct
+                
                 for ch in ['/','-', '+', '_', '^']:
                     if ch in ticker:
                         ticker=ticker.replace(ch,".")
